@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#navbar {
+    background-color: black;
+
+    height: 50px;
+
+
+}
+
+a {
+    margin-right: 200px;
+    text-decoration: none;
+    color: white;
+}
+
+input {
+    width: 90pxpx;
+}
+
+#logo {
+    font-size: 35px;
+    color: #f08804;
+}
+
+button {
+    background-color: #f08804;
+}
+
+#containt {
+    background-color: white(167, 35, 114);
+    height: 850px;
+  
+   
+}
+
+#class {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 20px 400px 0px 0px;
+    background-color: aquamarine;
+    color: red;
+    text-align: center;
+
+    
+}
+
+footer {
+
+    background-color: greenyellow;
+    height: 50px;
+    text-align: center;
+}
+h1{
+    font-size: 60px;
+    color: pink;
+   text-align: center;
+   margin: 30px;
+}

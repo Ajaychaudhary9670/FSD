@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    .outer {
+        height: 50rem;
+        width: 50rem;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+    }
+    .inner {
+        height: 15rem;
+        width: 15rem;
+        background-color: white;
+        font-size: 3rem;
+        display: flex;
+        flex-direction: column-reverse;
+              align-items: center;
+        justify-content: space-evenly;
+        /* padding: 3.5rem; */
+        
+        border-radius: 50%;
+    }
+    p {
+        margin: 0;
+    }
+</style>
+<body>
+    <div class="outer">
+        <div class="inner">
+            <p>hello</p>
+        </div>
+        <div class="inner">
+            <p>hello</p>
+        </div>
+    </div>
+</body>
+</html>

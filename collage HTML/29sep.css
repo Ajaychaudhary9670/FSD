@@ -1,0 +1,26 @@
+body{
+    background-color: aquamarine;
+    background-image: url(nature1.jpj.jpg);
+    background-size: cover;
+    height: 100vh;
+    /* background-image: linear-gradient( 120deg, green, rgb(197, 85, 15), yellow); */
+      /* background-image: linear-gradient( to right, green,  rgb(127, 175, 22)); */
+       background-image: linear-gradient(rgba(18, 131, 139, 0.5),rgba(85, 149, 181, 0.5)),url(nature1.jpj.jpg);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+h1{
+    color: aqua;
+    font-size: 170px;
+    
+
+}
+div{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: black;
+    background-color: aqua;
+    background-image: linear-gradient(white,pink,,blue,yellow);
+}

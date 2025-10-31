@@ -27,21 +27,16 @@ h1,h2,h3{
 }
 
 #parent{
-    width: 100px;
-    height: 100px;
+    width: 10rem;
+    height: 10rem;
     background-color: aquamarine;
+    display: flex;
+    align-self: center;
+    justify-content: center;
 }
 #child1{
-    position: relative;
-    left: 40px;
-    top: 30px;
-    border-radius: 50%;
-    border: 3px solid red;
-    width: 50px;
-    height: 50px;
-    font-size: 20px;
-    background-color: red;
-    color: white;
-    margin: 10px;
+    height: 4rem;
+    width: 4rem;
+    background-color: blue;
 
 }
